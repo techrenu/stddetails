@@ -1,0 +1,25 @@
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; /* Center the entire navigation bar */
+    align-items: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px; /* Adds spacing between links */
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #ffeb3b; /* Highlight color on hover */
+  }
+  

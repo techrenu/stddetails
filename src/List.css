@@ -1,0 +1,71 @@
+/* General table styling */
+
+h1{
+    text-align: center;
+    color: green;
+}
+table {
+    width: 60%;
+    border-collapse: collapse; /* Prevents double borders */
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ddd; /* Adds border around the table */
+
+   
+        margin: 0 auto; /* Centers the table horizontally */
+        position: relative;
+        top: 50%; /* Moves the table down by 50% of the viewport height */
+        transform: translateY(-50%); /* Adjusts for exact vertical centering */
+      
+      
+
+
+
+
+
+
+
+
+  }
+  
+  /* Table header styling */
+  thead {
+    background-color: #f4f4f4;
+  }
+  
+  thead th {
+    padding: 12px;
+    border-bottom: 2px solid #ddd; /* Row separation for header */
+    border-right: 1px solid #ddd; /* Column separation */
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  /* Table row styling */
+  tbody tr {
+    border-bottom: 1px solid #ddd; /* Row separation */
+  }
+  
+  tbody tr:last-child {
+    border-bottom: none; /* Remove border for the last row */
+  }
+  
+  tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Table cell styling */
+  td {
+    padding: 10px 15px;
+    vertical-align: middle;
+    border-right: 1px solid #ddd; /* Column separation */
+  }
+  
+  /* Remove the border for the last column */
+  th:last-child, td:last-child {
+    border-right: none;
+  }
+  
+
+  

@@ -1,0 +1,20 @@
+/* Center content both vertically and horizontally */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh; /* Full page height */
+    text-align: center;
+  }
+  
+  .about-container h1 {
+    font-size: 2.5rem;
+    color:black;
+  }
+  
+  .about-container p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
